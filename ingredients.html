@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,102 +16,124 @@
   <body class="">
     <header class="bg-dark p-2">
       <div class="container flex-column mt-3" style="width: 100%">
-        <h1 class="text-center text-light">Ingredients and Recipe</h1>
-        <nav class="navbar mt-2">
-          <a href="./index.html" class="nav-link">Home</a
-          ><a href="./ingredients.html" class="nav-link">Ingredients</a
-          ><a href="./places.html" class="nav-link">Where to find</a>
+        <h1 class="text-center text-light display-6">Ingredients and Recipe</h1>
+        <nav class="navbar1 mt-2">
+          <a href="./index.html" class="link">Home</a
+          ><a href="./ingredients.html" class="link">Ingredients</a
+          ><a href="./places.html" class="link">Where to find</a>
         </nav>
+        <div class="dropdown mobile-menu">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Menu
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a href="./index.html" class="link">Home</a
+            ><a href="./ingredients.html" class="link">Ingredients</a
+            ><a href="./places.html" class="link">Where to find</a>
+          </div>
+        </div>
       </div>
     </header>
     <main>
+      <div class="video">
+        <iframe
+          src="https://www.youtube.com/embed/b9rs3Aznrt0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h3 class="mb-5 text-center mt-3">Method</h3>
       <div
-        class="container flex-column mt-5 text-center mb-5"
+        class="container container-2 mt-5 text-center mb-5"
         style="max-width: 70%"
       >
-        <h3 class="mb-5">Method</h3>
-        <div class="row row-cols-2">
-          <div class="text-start">
-            <h4>Ingredients</h4>
-            <div class="mt-3">
-              <h5 class="ps-0">Rice Ingredients:</h5>
-              <ul class="ps-0">
-                <li>2 Cups Medium Grain Rice</li>
-                <li>2 Cups Filtered Water</li>
-              </ul>
-            </div>
-            <div class="mt-3">
-              <h5 class="ps-0">Fried Rice Sauce:</h5>
-              <ul class="ps-0">
-                <li>Galangal</li>
-                <li>1 tsp Sesame Oil</li>
-                <li>1 Tbsp Malaysian Sambal</li>
-                <li>3 Cloves Garlic</li>
-                <li>1 Tbsp Sweet soy sauce</li>
-                <li>1.5 Tbsp Double Aged Soy Sauce</li>
-              </ul>
-            </div>
-            <div class="mt-3">
-              <h5 class="ps-0">Fried Shallot Ingredients:</h5>
-              <ul class="ps-0">
-                <li>3 Shallots</li>
-                <li>Vegetable oil</li>
-              </ul>
-            </div>
-            <div class="mt-3">
-              <h5 class="ps-0">Fried Rice Ingredients:</h5>
-              <ul class="ps-0">
-                <li>2 Cups Medium Grain Rice</li>
-                <li>2 Cups Filtered Water</li>
-              </ul>
-            </div>
+        <div class="text-start ingredients part-1">
+          <h4>Ingredients</h4>
+          <div class="mt-3">
+            <h5 class="ps-0">Rice Ingredients:</h5>
+            <ul class="ps-0">
+              <li>2 Cups Medium Grain Rice</li>
+              <li>2 Cups Filtered Water</li>
+            </ul>
           </div>
-          <div class="text-start">
-            <h4>Instructions</h4>
-            <ol>
-              <li>Before cooking the rice, wash thoroughly 2x.</li>
-              <li>
-                Place into a rice cooker and add equal parts of water. Add
-                cooked rice to the lined baking sheet, cover, and refrigerate at
-                least overnight.
-              </li>
-              <li>
-                For fried rice sauce, combine all ingredients into a small bowl
-                and whisk together.
-              </li>
-              <li>
-                Finely slice the shallots and place in a cold wok filled with
-                vegetable oil. Cook over medium-high heat. Stir with chopsticks
-                until shallots are golden brown then remove and drain on paper
-                towels. Season with salt.
-              </li>
-              <li>
-                Heat an oiled wok over medium-high until smoking. Swirl oil
-                around and remove oil.
-              </li>
-              <li>
-                Heat duck fat over medium-high heat. Once dissolved, add in
-                garlic and toast.
-              </li>
-              <li>
-                Add diced shallots, diced red chiles, and finely sliced green
-                onions. Stir fry over medium heat for 2-3 minutes.
-              </li>
-              <li>
-                Add in beaten eggs along with salt. Cook for a couple seconds
-                then stir fry together until eggs are cooked.
-              </li>
-              <li>Add already cooked cold rice stir frying for 2-3 minutes.</li>
-              <li>Mix in ground white pepper, MSG and toss together.</li>
-              <li>
-                Turn off the heat and add in the fried rice sauce. Mix until
-                evenly distributed.
-              </li>
-              <li>
-                Plate and top with fried shallots, and sliced green onions.
-              </li>
-            </ol>
+          <div class="mt-3">
+            <h5 class="ps-0">Fried Rice Sauce:</h5>
+            <ul class="ps-0">
+              <li>Galangal</li>
+              <li>1 tsp Sesame Oil</li>
+              <li>1 Tbsp Malaysian Sambal</li>
+              <li>3 Cloves Garlic</li>
+              <li>1 Tbsp Sweet soy sauce</li>
+              <li>1.5 Tbsp Double Aged Soy Sauce</li>
+            </ul>
           </div>
+          <div class="mt-3">
+            <h5 class="ps-0">Fried Shallot Ingredients:</h5>
+            <ul class="ps-0">
+              <li>3 Shallots</li>
+              <li>Vegetable oil</li>
+            </ul>
+          </div>
+          <div class="mt-3">
+            <h5 class="ps-0">Fried Rice Ingredients:</h5>
+            <ul class="ps-0">
+              <li>2 Cups Medium Grain Rice</li>
+              <li>2 Cups Filtered Water</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-start ingredients part-2">
+          <h4>Instructions</h4>
+          <ol>
+            <li>Before cooking the rice, wash thoroughly 2x.</li>
+            <li>
+              Place into a rice cooker and add equal parts of water. Add cooked
+              rice to the lined baking sheet, cover, and refrigerate at least
+              overnight.
+            </li>
+            <li>
+              For fried rice sauce, combine all ingredients into a small bowl
+              and whisk together.
+            </li>
+            <li>
+              Finely slice the shallots and place in a cold wok filled with
+              vegetable oil. Cook over medium-high heat. Stir with chopsticks
+              until shallots are golden brown then remove and drain on paper
+              towels. Season with salt.
+            </li>
+            <li>
+              Heat an oiled wok over medium-high until smoking. Swirl oil around
+              and remove oil.
+            </li>
+            <li>
+              Heat duck fat over medium-high heat. Once dissolved, add in garlic
+              and toast.
+            </li>
+            <li>
+              Add diced shallots, diced red chiles, and finely sliced green
+              onions. Stir fry over medium heat for 2-3 minutes.
+            </li>
+            <li>
+              Add in beaten eggs along with salt. Cook for a couple seconds then
+              stir fry together until eggs are cooked.
+            </li>
+            <li>Add already cooked cold rice stir frying for 2-3 minutes.</li>
+            <li>Mix in ground white pepper, MSG and toss together.</li>
+            <li>
+              Turn off the heat and add in the fried rice sauce. Mix until
+              evenly distributed.
+            </li>
+            <li>Plate and top with fried shallots, and sliced green onions.</li>
+          </ol>
         </div>
       </div>
     </main>

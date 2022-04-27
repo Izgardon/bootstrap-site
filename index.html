@@ -16,23 +16,40 @@
   <body class="">
     <header class="bg-dark p-2">
       <div class="container flex-column mt-3" style="width: 100%">
-        <h1 class="text-center text-light">Egg Fried Rice</h1>
-        <nav class="navbar mt-2">
+        <h1 class="text-center text-light display-6">Egg Fried Rice</h1>
+        <nav class="navbar1 mt-2">
           <a href="./index.html" class="link">Home</a
           ><a href="./ingredients.html" class="link">Ingredients</a
           ><a href="./places.html" class="link">Where to find</a>
         </nav>
+        <div class="dropdown mobile-menu">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Menu
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a href="./index.html" class="link">Home</a
+            ><a href="./ingredients.html" class="link">Ingredients</a
+            ><a href="./places.html" class="link">Where to find</a>
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <div class="container mt-5">
         <h3 class="text-center">Uncle Roger's Fried Rice (But Better)</h3>
-        <div class="main-div row row-cols-2 mt-3 m-auto">
+        <div class="container-3 main-div row row-cols-2 mt-5 m-auto">
           <img
             src="https://external-preview.redd.it/v_3wd2rjLAQwZmnh7DJyotKmV4_RiKdBXHoHSoGo5Vo.jpg?format=pjpg&auto=webp&s=816f5b5be5587ee0d2ca172e81cd039676681662"
             alt="Picture of egg fried rice"
           />
-          <div class="align-text-bottom">
+          <div class="">
             If you know Uncle Roger, you know that he is a good judge on fried
             rice, he even judged Gordon Ramsay. Some may say that Uncle Roger's
             fried rice recipe is perfect. However, this is But Better and nobody
@@ -42,10 +59,18 @@
             <a
               href="https://www.joshuaweissman.com/post/uncle-roger-s-fried-rice-but-better"
               >here</a
-            >!
+            >! <br />
+            <btn class="btn bg-danger mt-5 mb-5"
+              ><a
+                style="color: white; text-decoration: none"
+                href="./ingredients.html"
+                >Jump to recipe</a
+              ></btn
+            >
           </div>
         </div>
       </div>
+      <div class=""></div>
     </main>
   </body>
 </html>
